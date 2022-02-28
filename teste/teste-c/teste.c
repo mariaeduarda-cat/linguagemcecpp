@@ -30,10 +30,12 @@ void main () {
    printf("O sucessor de b é a letra: %c.\n", escolha);*/
 
 
-    char ch1, ch2;
-    printf("Entre com duas letras:\n");
-    scanf("%c", &ch1);
-    scanf("%c", &ch2);
-    printf("As letras inseridas foram %c e %c.\n", ch1, ch2);
+    char inicial;
+    int idade;
+    printf(?Entre com a sua idade e a sua inicial:\n?);
+    scanf(?%d?, &idade);
+    scanf(?%c?, &inicial);
+    printf(?Voce tem %d anos e seu nome comeca com %c\n?, idade, inicial);
+    
 
 }
