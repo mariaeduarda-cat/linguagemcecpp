@@ -9,29 +9,29 @@ int main () {
     a = 10;
     b = a + 1;
     c = b + 2;
-    printf("Atualmente, temos a = %d, b = %d e c = %d.\n", a, b, c);*/
+    printf("Atualmente, temos a = %d, b = %d e c = %d.\n", a, b, c);
 
-    /*char ch1, ch2, ch3, ch4, ch5;
+    char ch1, ch2, ch3, ch4, ch5;
     ch1 = 'E';
     ch2 = 'o';
     ch3 = 's';
     ch4 = 'z';
     ch5 = 'p';
-    puts("%cu g%c%cto de %ciz%ca.\n", ch1, ch2, ch3, ch5, ch4 );*/
+    puts("%cu g%c%cto de %ciz%ca.\n", ch1, ch2, ch3, ch5, ch4 );
 
 
-   /*float a, b;
+   float a, b;
    a = 12.5;
    b = 10.7;
-   printf("a = %.2f e b = %.2f\n", a, b);*/
+   printf("a = %.2f e b = %.2f\n", a, b);
 
-   /*char escolha;
+   char escolha;
    escolha = 'b';
    escolha = escolha + 1;
-   printf("O sucessor de b é a letra: %c.\n", escolha);*/
+   printf("O sucessor de b é a letra: %c.\n", escolha);
 
 
-    /*int cadastrado, ativo, logado;
+    int cadastrado, ativo, logado;
     char opcao;
 
     cadastrado = ativo = logado = 0;
@@ -65,9 +65,9 @@ int main () {
     } 
     else {
         printf("\nAlgo deu errado.\n");
-    }*/
+    }
 
-    /*float nota1, nota2, nota3, media, total;
+    float nota1, nota2, nota3, media, total;
 
     printf("Informe sua primeira nota:\n");
     scanf("%f", &nota1);
@@ -88,7 +88,7 @@ int main () {
     }
     else {
         printf("SUa nota final foi de %.2f. \nInfelizmente você foi reprovado!", total);
-    }*/
+    }
 
     int opcao;
 
@@ -103,7 +103,7 @@ int main () {
         }
     } else {
         printf("\nNúmero negativo.\n");
-    }*/
+    }
 
     switch(opcao) {
         case 1: {
@@ -119,7 +119,31 @@ int main () {
         default: printf("\nOpção inválida.\n");
     }
 
-    printf("Final do programa");
+    printf("Final do programa");*/
 
+   
+   float media, nota1, nota2;
+
+    printf("Informe sua primeira nota: \n");
+    scanf("%f", &nota1);
+    fflush(stdin);
+
+    printf("Informe sua segunda nota: \n");
+    scanf("%f", &nota2);
+
+    media = (nota1 + nota2) / 2.0;
+
+    if (media>=6) {
+        printf("Parábens, você está aprovado!!");
+    } 
+    else 
+        if (media >=4) {
+            printf("Você está em recuperação");
+        }
+        else {
+            printf("Você está reprovado");
+        }
+
+    return 0;
 
 }
