@@ -1,11 +1,11 @@
 #include <locale.h>
 #include <stdio.h>
 
-int main () {
+    /*int main () {
     setlocale(LC_ALL, "Portuguese");
     system("cls");
 
-    /*int a, b, c;
+    int a, b, c;
     a = 10;
     b = a + 1;
     c = b + 2;
@@ -17,7 +17,7 @@ int main () {
     ch3 = 's';
     ch4 = 'z';
     ch5 = 'p';
-    puts("%cu g%c%cto de %ciz%ca.\n", ch1, ch2, ch3, ch5, ch4 );
+    puts("%cu g%c%cto de %ciz%ca.\n", ch1, ch2, ch3, ch5, ch4);
 
 
    float a, b;
@@ -28,7 +28,7 @@ int main () {
    char escolha;
    escolha = 'b';
    escolha = escolha + 1;
-   printf("O sucessor de b é a letra: %c.\n", escolha);
+   printf("O sucessor de b ï¿½ a letra: %c.\n", escolha);
 
 
     int cadastrado, ativo, logado;
@@ -84,42 +84,42 @@ int main () {
     total = media;
 
     if(media >= 8) {
-        printf("\nSua nota final foi de %.2f. \nParábens!!! Você foi aprovado.", total);
+        printf("\nSua nota final foi de %.2f. \nParï¿½bens!!! Vocï¿½ foi aprovado.", total);
     }
     else {
-        printf("SUa nota final foi de %.2f. \nInfelizmente você foi reprovado!", total);
+        printf("SUa nota final foi de %.2f. \nInfelizmente vocï¿½ foi reprovado!", total);
     }
 
     int opcao;
 
-    printf("Entre 1° para adicionar ou 2° para excluir: \n");
+    printf("Entre 1ï¿½ para adicionar ou 2ï¿½ para excluir: \n");
     scanf("%d", &opcao);
 
-    /*if(opcao >= 0) {
+    if(opcao >= 0) {
         if (opcao == 0) {
-            printf("\nNúmero nulo.\n");
+            printf("\nNï¿½mero nulo.\n");
         } else {
-            printf("\nNúmero positivo.\n");
+            printf("\nNï¿½mero positivo.\n");
         }
     } else {
-        printf("\nNúmero negativo.\n");
+        printf("\nNï¿½mero negativo.\n");
     }
 
     switch(opcao) {
         case 1: {
-            printf("\nNúmero 1.\n");
+            printf("\nNï¿½mero 1.\n");
             break;
         }
     
         case 2: {
-            printf("\nNúmero 2.\n");
+            printf("\nNï¿½mero 2.\n");
             break;
         }
 
-        default: printf("\nOpção inválida.\n");
+        default: printf("\nOpï¿½ï¿½o invï¿½lida.\n");
     }
 
-    printf("Final do programa");*/
+    printf("Final do programa");
 
    
    float media, nota1, nota2;
@@ -134,16 +134,12 @@ int main () {
     media = (nota1 + nota2) / 2.0;
 
     if (media>=6) {
-        printf("Parábens, você está aprovado!!");
+        printf("Parï¿½bens, vocï¿½ estï¿½ aprovado!!");
     } 
     else 
         if (media >=4) {
-            printf("Você está em recuperação");
+            printf("Vocï¿½ estï¿½ em recuperaï¿½ï¿½o");
         }
         else {
-            printf("Você está reprovado");
-        }
-
-    return 0;
-
-}
+            printf("Vocï¿½ estï¿½ reprovado");
+        }*/
