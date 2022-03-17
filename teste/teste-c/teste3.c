@@ -29,7 +29,7 @@
         printf("\nInfelizmente, você foi repovado!!");
     }*/
 
-    /*int num, cont; 
+    int num, cont; 
 
     printf("Digite um número para ver sua tabuada: ");
     scanf("%d", &num);
@@ -39,7 +39,7 @@
         printf("%d x %d = %d\n", num, cont, num * cont);
     }
 
-    return 0;*/
+    return 0;
 
     /*int cont, Soma, media;
 
@@ -57,7 +57,7 @@
 
     
     
-    int cont,num,maior;
+   /* int cont,num,maior;
 
     maior = 0;
 
@@ -73,6 +73,6 @@
     
     printf ("O maior dos números lidos é: %d\n", maior); 
     
-    return 0;    
+    return 0;    */
 
 }
