@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <locale.h>
 #include <stdlib.h>
+#include <locale.h>
 
     int main () {
     setlocale(LC_ALL, "Portuguese");
@@ -21,17 +21,17 @@
 
     media = (nota1 + nota2 + nota3) / 3;
 
-    printf("\nSua média é: %.2f.\n", media);
+    printf("\nSua mðdia ð: %.2f.\n", media);
 
     if (media >= 7) {
-        printf("\nParábens!! Você foi aprovado");
+        printf("\nParðbens!! Vocð foi aprovado");
     } else {
-        printf("\nInfelizmente, você foi repovado!!");
-    }*/
+        printf("\nInfelizmente, vocð foi repovado!!");
+    }
 
     int num, cont; 
 
-    printf("Digite um número para ver sua tabuada: ");
+    printf("Digite um nðmero para ver sua tabuada: ");
     scanf("%d", &num);
 
     for (cont=1; cont<=9; cont++) 
@@ -41,7 +41,7 @@
 
     return 0;
 
-    /*int cont, Soma, media;
+    int cont, Soma, media;
 
     Soma = 0;
 
@@ -51,13 +51,13 @@
 
     media = Soma/10;
 
-    printf("A média dos números entre 1 e 10 = %d", media);
+    printf("A mðdia dos nðmeros entre 1 e 10 = %d", media);
 
-    return 0;*/
+    return 0;
 
     
     
-   /* int cont,num,maior;
+   int cont,num,maior;
 
     maior = 0;
 
@@ -71,8 +71,8 @@
 
     }
     
-    printf ("O maior dos números lidos é: %d\n", maior); 
+    printf ("O maior dos nðmeros lidos ð: %d\n", maior); 
     
-    return 0;    */
+    return 0; */
 
 }
