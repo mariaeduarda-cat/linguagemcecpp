@@ -5,45 +5,48 @@
     setlocale(LC_ALL, "Portuguese");
     system("cls");
 
-    /*char sexo;
-    printf("Qual ð o seu sexo? (f/m).\n");
-    scanf("%c", &sexo);
+        //CÃ³digo mostra qual seu sexo com else if;
 
-    if(sexo == 'f' || sexo == 'F') {
-        printf("Vocð ð do sexo feminino. \n"); 
-    }
-    else 
-        if(sexo == 'm' || sexo == 'M') {
-           printf("\nVocð ð do sexo masculino. \n"); 
+        char sexo;
+        printf("Qual e o seu sexo? (f/m).\n");
+        scanf("%c", &sexo);
+
+        if(sexo == 'f' || sexo == 'F') {
+            printf("Voce e do sexo feminino. \n"); 
+        }
+        else if(sexo == 'm' || sexo == 'M') {
+            printf("\nVoce e do sexo masculino. \n"); 
+            }
+            
+        else {
+            printf("Voce digitou um valor de sexo invalido");
         }
         
-    else {
-        printf("Vocð digitou um valor de sexo invðlido");
-    }*/
-    
-    float salario, media, maiorSalario, somaSalarial;
-    int cont;
+        //CÃ³digo mostra o salÃ¡rio com uso de if dentro do for;
 
-    maiorSalario = 0;
-    somaSalarial = 0;
+        float salario, media, maiorSalario, somaSalarial;
+        int cont;
 
-   for (cont=1; cont<=10; cont++) {
-       printf("Digite o salário do funcionário: \n");
-       scanf("%f", &salario);
-       fflush(stdin);
+        maiorSalario = 0;
+        somaSalarial = 0;
 
-       somaSalarial = somaSalarial + salario;
-       
-       if(salario > maiorSalario) {
-           maiorSalario = salario;
-       }
-   }
+     for (cont=1; cont<=10; cont++) {
+        printf("Digite o salario do funcionario: \n");
+        scanf("%f", &salario);
+        fflush(stdin);
 
-   media = somaSalarial/10;
-   printf("O maior salario da empresa e = %.3f \n", maiorSalario);
-   printf("A media salarial da empresa e = %.3f \n", media);
+        somaSalarial = somaSalarial + salario;
+        
+        if(salario > maiorSalario) {
+            maiorSalario = salario;
+        }
+     }
 
-    return 0;
+     media = somaSalarial/10;
+     printf("O maior salario da empresa e = %.3f \n", maiorSalario);
+     printf("A media salarial da empresa e = %.3f \n", media);
 
-    
+        return 0;
+
+        
 }

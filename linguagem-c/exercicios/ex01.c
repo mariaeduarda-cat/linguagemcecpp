@@ -5,7 +5,7 @@
     system("cls");
 
     int a, b, c;
-    a = 10;           //Código que soma os caracteres
+    a = 10;           //Código que soma os caracteres;
     b = a + 1;
     c = b + 2;
     printf("Atualmente, temos a = %d, b = %d e c = %d.\n", a, b, c);
@@ -13,23 +13,23 @@
     char ch1, ch2, ch3, ch4, ch5;
     ch1 = 'E';
     ch2 = 'o';
-    ch3 = 's';      //Podemos substituir as letras pelo %c na ordem que queremos 
+    ch3 = 's';      //Podemos substituir as letras pelo %c na ordem; que queremos 
     ch4 = 'z';
     ch5 = 'p';
     printf("%cu g%c%cto de %ciz%ca.\n", ch1, ch2, ch3, ch5, ch4);
 
 
     float a, b;
-    a = 12.5;        //Mostra na tela os números que estao nas variáveis
+    a = 12.5;        //Mostra na tela os números que estao nas variáveis;
     b = 10.7;
     printf("a = %.2f e b = %.2f\n", a, b);
 
     char escolha; 
-    escolha = 'b';        //Soma 1 ao caractere b, resultado = c
+    escolha = 'b';        //Soma 1 ao caractere b, resultado = c;
     escolha = escolha + 1;
     printf("O sucessor de b e a letra: %c.\n", escolha); 
 
-    //Código abaixo nos mostra o uso do switch para menu de opções
+    //Código abaixo nos mostra o uso do switch para menu de opções;
 
     int cadastrado, ativo, logado;
     char opcao;
@@ -67,7 +67,7 @@
     printf("\nAlgo deu errado.\n");
     }
 
-    //Código mostra média aritmética
+    //Código mostra média aritmética;
 
     float nota1, nota2, nota3, media, total;
 
@@ -92,7 +92,7 @@
     printf("SUa nota final foi de %.2f. \nInfelizmente voce foi reprovado!", total);
     }
 
-    //Código mostra caso de Estrutura de Decisão Composta com Switch
+    //Código mostra caso de Estrutura de Decisão Composta com Switch;
 
     int opcao;
     printf("Entre com 1 para adicionar ou 2 para excluir: \n");
@@ -125,7 +125,7 @@
 
     printf("Final do programa");
 
-    //Código mostra Estrutura de Decisão Aninhada com Média 
+    //Código mostra Estrutura de Decisão Aninhada com Média;
 
     float media, nota1, nota2;
 
@@ -141,8 +141,7 @@
     if (media>=6) {
     printf("Parabens, voce esta aprovado!!");
     } 
-    else 
-    if (media >=4) {
+    else if (media >=4) {
         printf("Voce esta em recuperacao");
     }
     else {
