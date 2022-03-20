@@ -9,7 +9,7 @@
 
     //Código mostra a tabuada de um número
 
-    int num, cont; 
+    /*int num, cont; 
 
     printf("Digite um numero para ver sua tabuada: ");
     scanf("%d", &num);
@@ -56,6 +56,19 @@
     
     printf ("O maior dos numeros lidos e: %d\n", maior); 
     
-    return 0; 
+    return 0; */
+
+    int num;
+
+    printf("Digite um numero: ");
+    scanf("%d", &num);
+
+    while (num!=0)
+    {
+        printf("O numero lido foi = %d\n", num);
+        printf("Digite um numero: ");
+        scanf("%d", &num);
+    }
+    
 
 }
