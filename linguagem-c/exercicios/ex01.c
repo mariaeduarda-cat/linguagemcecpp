@@ -13,7 +13,7 @@
     char ch1, ch2, ch3, ch4, ch5;
     ch1 = 'E';
     ch2 = 'o';
-    ch3 = 's';      //Podemos substituir as letras pelo %c na ordem; que queremos 
+    ch3 = 's';      //Podemos substituir as letras pelo %c na ordem que queremos;
     ch4 = 'z';
     ch5 = 'p';
     printf("%cu g%c%cto de %ciz%ca.\n", ch1, ch2, ch3, ch5, ch4);
