@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <locale.h>
+#include <string.h>
 
     int main () {
-    setlocale(LC_ALL, "Portuguese");
     system("cls");
 
     //Código mostra a tabuada de um número;
@@ -151,7 +150,9 @@
             {
                printf("O numero lido foi = %d\n", num);
             }
-        } while (num!=0); */
+        } while (num!=0); 
+
+        //Código mostra o antecessor e sucessor com DO WHILE;
          
     int num;
 
@@ -166,8 +167,56 @@
         }
         
     } while (num!=0 && num!=9);
+
+    int vet[5];
+    vet [0] = 8;
+    vet [1] = 10;
+    vet [3] = 90;
+    vet [4] = 19;
+    vet [5] = 4; 
+
+    vet [4] = 28;
+    vet [2] = 56; 
+
+
+    printf("A posicao 2 e 4 do vetor e: %d, %d", vet[2], vet[4]);
+
+    scanf("%d", &vet[5]);
+    printf("O valor e: %d", vet[5]);
+
+    scanf("%d", &num);
+    vet[3] = num; 
     
-        
+    printf("O valor do indice 3 e: %d", vet[3]);
+
+    printf("Posicao 6 do vetor: %d", vet[6]);
+
+    vet[6] = 900;
+    scanf("%d", &vet[6]);
+
+    
+    char cadeia[11] = {'a', 'l', 'g', 'o', 'r', 'i', 't', 'm', 'o', 's'};
+
+    printf("%s", cadeia);
+
+    char nome[8];
+    int ind;
+
+    scanf("%s", nome);
+
+    for (ind=8; ind>=0; ind--){
+        printf("%c", nome[ind]);
+    }
+    */
+
+    int num[10], cont;
+
+    for (cont=9; cont>=0; cont--) {
+        printf("%d \n", num[cont]);
+    }
+
+    return 0;
+    
 
 
 }
