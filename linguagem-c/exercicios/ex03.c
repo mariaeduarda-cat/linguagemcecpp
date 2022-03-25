@@ -71,7 +71,7 @@
 
     //Código mostra média de alunos com uso do WHILE;
     
-   /* float nota1, nota2, nota3, media;
+    float nota1, nota2, nota3, media;
     int contalunos;
 
     contalunos = 1;
@@ -207,7 +207,7 @@
     for (ind=8; ind>=0; ind--){
         printf("%c", nome[ind]);
     }
-    */
+    
 
     int num[10], cont;
 
@@ -217,6 +217,7 @@
 
     return 0;
     
+    */
 
 
 }

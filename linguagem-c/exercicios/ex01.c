@@ -4,7 +4,7 @@
     int main () {
     system("cls");
 
-    int a, b, c;
+    /*int a, b, c;
     a = 10;           //Código que soma os caracteres;
     b = a + 1;
     c = b + 2;
@@ -147,6 +147,16 @@
     else {
         printf("Voce esta reprovado");
     }
+*/
+    int Mat[3][5] = {{0, 1, 2, 4,}, {5, 6, 7, 8, 9}, {10, 11, 12, 13, 14}}, num;
 
+    /*Mat[2][4] = 90; 
+
+    printf("Linha 3, coluna 4: %d", Mat[2][4]);*/
+
+    /*printf("Digite um numero qualquer: ");
+    scanf("%d", &num);
+    Mat[1][2] = num;
+    printf("O numero agora e: %d", Mat[1][2]); */
 
 }
