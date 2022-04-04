@@ -33,7 +33,7 @@
 
     printf("A media dos numeros entre 1 e 10 = %d", media);
 
-    return 0;
+    return 0; 
     
   //Código mostra qual número é o maior entre entres;
 
