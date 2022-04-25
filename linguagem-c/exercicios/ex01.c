@@ -147,10 +147,10 @@
     else {
         printf("Voce esta reprovado");
     }
-*/
+
     int Mat[3][5] = {{0, 1, 2, 4,}, {5, 6, 7, 8, 9}, {10, 11, 12, 13, 14}}, num;
 
-    /*Mat[2][4] = 90; 
+    Mat[2][4] = 90; 
 
     printf("Linha 3, coluna 4: %d", Mat[2][4]);*/
 
@@ -158,5 +158,14 @@
     scanf("%d", &num);
     Mat[1][2] = num;
     printf("O numero agora e: %d", Mat[1][2]); */
+
+    char caractere;
+
+    printf("Digite um caractere para saber seu correspondente em ASCII: ");
+    scanf("%c", &caractere);
+
+    printf("Em ASCII e: %d", caractere); 
+
+   
 
 }

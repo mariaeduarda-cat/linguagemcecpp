@@ -7,7 +7,7 @@
 
     //Código mostra a tabuada de um número;
 
-   /*int num, cont; 
+   int num, cont; 
 
     printf("Digite um numero para ver sua tabuada: ");
     scanf("%d", &num);
