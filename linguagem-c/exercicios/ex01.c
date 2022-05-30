@@ -152,12 +152,12 @@
 
     Mat[2][4] = 90; 
 
-    printf("Linha 3, coluna 4: %d", Mat[2][4]);*/
+    printf("Linha 3, coluna 4: %d", Mat[2][4]);
 
-    /*printf("Digite um numero qualquer: ");
+    printf("Digite um numero qualquer: ");
     scanf("%d", &num);
     Mat[1][2] = num;
-    printf("O numero agora e: %d", Mat[1][2]); */
+    printf("O numero agora e: %d", Mat[1][2]); 
 
     char caractere;
 
@@ -166,6 +166,18 @@
 
     printf("Em ASCII e: %d", caractere); 
 
-   
+    
+    int ano;
+
+    printf("Digite um ano qualquer: ");
+    fflush(stdin);
+    scanf("%i", &ano);
+
+    if (ano % 4 == 0) {
+        printf("O ano %i e bissexto.", ano);
+    } else {
+        printf("O ano %i e nao e bissexto", ano);
+    }  
+    */
 
 }
